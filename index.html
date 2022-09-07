@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css Link-->
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2015.ico">
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+
+</head>
+
+<body>
+    <!-- Cover Image -->
+    <div class="coverimg">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <img src="https://i.ibb.co/r5krrdz/logo.png">
+            </div>
+            <h3 class="header-title">Thank you for signing up at Netflix. Tell us more about yourself.</h3>
+        </div>
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="form-content">
+                <form action="q" method="get" id="survey-form" name="form">
+                    <div class="info">
+                        <label for="name" id="name-label">Name</label>
+                        <br>
+                        <input class="input-text" type="text" name="name" id="name" placeholder="Please Enter Your Name"
+                            required>
+                    </div>
+                    <div class="info">
+                        <label for="number" id="number-label">Age</label>
+                        <br>
+                        <input class="input-text" type="number" name="age" id="number" placeholder="Age" min="18"
+                            max="99" required>
+                    </div>
+                    <div class="info">
+                        <label for="email" id="email">E-mail</label>
+                        <br>
+                        <input class="input-text" type="text" id="email" name="email" placeholder="example@email.com"
+                            required>
+                    </div>
+                    <div class="info">
+                        <label for="dropdown" id="dropdown-label">Content Type</label>
+                        <br>
+                        <select class="input-text"  name="content" id="dropdown">
+                            <option value="movie">Movie</option>
+                            <option value="series">Series</option>
+                        </select>
+                    </div>
+                    <div class="info">
+                        <label id="checkbox">Movie Type</label>
+                        <br>
+                        <label for="first-check">
+                            <input type="checkbox" id="first-check" name="movie1" value="Comedy"> Comedy
+                        </label>
+                        <br>
+                        <label for="second-check">
+                            <input type="checkbox" id="second-check" movie="movie2" value="Action"> Action
+                        </label>
+                        <br>
+                        <label for="third-check">
+                            <input type="checkbox" id="third-check" movie="movie3" value="Documentary"> Documentary
+                        </label>
+                        <br>
+                    </div>
+                    <div class="info">
+                        <label id="radio-btn">Gender</label>
+                        <br />
+                        <label>
+                            <input type="radio" name="gender" value="male" placeholder="male"> Male</input>
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="gender" value="female" placeholder="famale"> Female</input>
+                        </label>
+                        <br />
+                        <label>
+                            <input type="radio" name="gender" value="other" placeholder="other"> Other</input>
+                        </label>
+                        <br />
+                    </div>
+                    <div class="info text-area">
+                        <label for="feedback" id="feedback">Feedback</label>
+                        <br>
+                        <textarea name="feedback" id="feedback" cols="44" rows="6" placeholder="Enter Your Comment"></textarea>
+                    </div>
+                    <input type="submit" value="Send" id="submit">
+                </form>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer-wrapper">
+            <div class="footer-w">
+                <nav>
+                    <p class="fotter-top">Questions? Call
+                        <a class="contact" href="tel:0850-390-7444">0850-390-7444</a>
+                    </p>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#">Gift Card Terms</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Statement</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="language">
+                    <select title="Lanugages">
+                        <option>Turkish</option>
+                        <option>Spanish</option>
+                        <option>German</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
