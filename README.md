@@ -2,4 +2,4 @@
 
 I have re-created the Netflix survey form page using HTML and CSS.
 
-https://bimelike.github.io/netflix-survey-forum-clone/
+https://bimelike.github.io/netflix-survey-form-clone/
