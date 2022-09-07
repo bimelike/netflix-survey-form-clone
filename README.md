@@ -1,4 +1,4 @@
-# netflix-survey-forum-clone
+# netflix-survey-form-clone
 
 I have re-created the Netflix survey forum page using HTML and CSS.
 
